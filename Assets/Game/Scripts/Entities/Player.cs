@@ -119,6 +119,7 @@ public class Player : Humanoid
 
     public override void Kill()
     {
+        State = PlayerState.Burning;
         _animator.SetTrigger("Burn");
     }
 

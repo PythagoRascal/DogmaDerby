@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c694b7c83ec209a488fad346d2727ca1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 1.5
+  _speed: 2.5
   TeamIndex: 0
   _borderOffset: 25
   _convictionRadius: 60
@@ -267,6 +267,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: _destructionRadius
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _speed
+      value: 2.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

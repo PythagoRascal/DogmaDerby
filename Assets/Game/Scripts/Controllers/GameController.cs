@@ -44,6 +44,12 @@ public class GameController : ScriptBase
     private void Start()
     {
         _playerCount.displayNumber = _playerController.TeamCount;
+
+        var connectedPlayers = AirConsole.instance.GetControllerDeviceIds().Count;
+        if (connectedPlayers >= _playerController.TeamCount)
+        {
+            StartGame();
+        }
     }
 
     private void Update()

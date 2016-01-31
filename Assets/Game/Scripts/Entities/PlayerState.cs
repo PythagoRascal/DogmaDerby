@@ -6,5 +6,6 @@ public enum PlayerState
     Normal,
     Convincing,
     Destroying,
+    Burning,
     Dead
 }
