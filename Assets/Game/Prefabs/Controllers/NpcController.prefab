@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &141992
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 435414}
+  - 114: {fileID: 11409580}
+  m_Layer: 0
+  m_Name: NpcController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &435414
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141992}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11409580
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4cd07fbb143ac43a018038e6aead73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maleNpcPrefab: {fileID: 184520, guid: 1d4974ccf6a1c7241950212346a5fb3c, type: 2}
+  _femaleNpcPrefab: {fileID: 170236, guid: 3fbaee0b8e3abd843b333971fa3c058c, type: 2}
+  _npcSpawnCount: 600
+  _borderOffset: 20
+  _updateInterval: 0.2
+  _playerMoveProbability: 0.5
+  _playerMoveBoxWidth: 100
+  _playerMoveBoxHeight: 100
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: _npcPrefab
+      value: 
+      objectReference: {fileID: 170236, guid: 3fbaee0b8e3abd843b333971fa3c058c, type: 2}
+    - target: {fileID: 0}
+      propertyPath: _maleNpcPrefab
+      value: 
+      objectReference: {fileID: 184520, guid: 1d4974ccf6a1c7241950212346a5fb3c, type: 2}
+    - target: {fileID: 0}
+      propertyPath: _femaleNpcPrefab
+      value: 
+      objectReference: {fileID: 170236, guid: 3fbaee0b8e3abd843b333971fa3c058c, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 141992}
+  m_IsPrefabParent: 1

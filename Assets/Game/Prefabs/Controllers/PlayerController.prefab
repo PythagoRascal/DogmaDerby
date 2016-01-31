@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &126250
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 413948}
+  - 114: {fileID: 11462684}
+  m_Layer: 0
+  m_Name: PlayerController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &413948
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 126250}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11462684
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 126250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1dd76d307a09ce4fae0f4f4225e6c34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _team0PlayerPrefabs:
+  - {fileID: 180908, guid: 11634647ef578fc40ac69f845ee79426, type: 2}
+  - {fileID: 123298, guid: 6aa2d98ccd38ee3418d79f7e1f6cde3a, type: 2}
+  - {fileID: 176848, guid: 3cd5547ec793b614ebefd487c1aa78aa, type: 2}
+  - {fileID: 179516, guid: fb95fd217e427d44ab5fa7fa334227ff, type: 2}
+  _team1PlayerPrefabs:
+  - {fileID: 121322, guid: 640f15633c9f4f74a86f32ad6f5b94c1, type: 2}
+  - {fileID: 138578, guid: 9bdc0b2dd27459848bddee92e1a501cd, type: 2}
+  - {fileID: 165412, guid: d56a24c0dfc6b274488b563de1fce616, type: 2}
+  - {fileID: 119588, guid: ef8ed2bb4ea4318408f65b60f74c96e7, type: 2}
+  _team2PlayerPrefabs:
+  - {fileID: 171424, guid: 438fbfaa4ddf71f44990e534a4004d5b, type: 2}
+  - {fileID: 114568, guid: 4b85eecf97f37af4a8c807798cf33e4c, type: 2}
+  - {fileID: 114120, guid: b7b3e9fc8b8238a40b9f9d4b5b8b6958, type: 2}
+  - {fileID: 127712, guid: 1e31decfb8e20ad46b45d21b3ee9777d, type: 2}
+  _team3PlayerPrefabs:
+  - {fileID: 165098, guid: e0a0044f38c7afe48a780efdcaebf4ef, type: 2}
+  - {fileID: 113722, guid: 211c0b45f98855f48aed17e9cde15354, type: 2}
+  - {fileID: 144502, guid: de7d20d7a73620c4a9149f0b5d21073d, type: 2}
+  - {fileID: 137408, guid: 46323cf950c2e5f4797d39c5012b7b62, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 126250}
+  m_IsPrefabParent: 1
